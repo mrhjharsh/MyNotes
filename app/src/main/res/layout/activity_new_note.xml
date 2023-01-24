@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="@drawable/my2"
+        tools:context=".newNote"
+        >
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_30"
+        android:layout_marginTop="@dimen/dim_50"
+        android:gravity="center">
+
+        <EditText
+            android:textColor="@color/black"
+
+            android:id="@+id/city"
+            android:layout_width="@dimen/dim_350"
+            android:layout_height="@dimen/dim_60"
+            android:hint="     TITLE"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            android:inputType="text"
+            android:textAlignment="inherit">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_30"
+        android:layout_marginTop="@dimen/dim_150"
+        android:gravity="center">
+
+        <EditText
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:id="@+id/country"
+            android:layout_width="@dimen/dim_350"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black"
+            android:layout_height="@dimen/dim_460"
+            android:hint="     DESCRIPTION"
+            >
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_160"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="@color/black"
+        android:text="SAVE"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+
+</RelativeLayout>
