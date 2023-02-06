@@ -37,6 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dim_30"
             android:layout_marginTop="@dimen/dim_150"
+            android:textColorHint="@color/white"
             android:gravity="center">
 
             <EditText
