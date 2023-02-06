@@ -15,14 +15,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dim_30"
             android:layout_marginTop="@dimen/dim_50"
-            android:textColorHint="@color/black"
-            app:hintTextColor="@color/black"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
             android:gravity="center">
 
             <EditText
                 android:id="@+id/city"
                 android:layout_width="@dimen/dim_350"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
 
                 android:layout_height="@dimen/dim_60"
                 android:hint="     TITLE"
@@ -43,12 +43,12 @@
                 android:id="@+id/country"
                 android:layout_width="@dimen/dim_350"
                 android:layout_height="@dimen/dim_460"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
 
                 android:hint="     DESCRIPTION"
                 android:inputType="textMultiLine"
-                android:textColorHint="@color/black"
-                app:hintTextColor="@color/black"
+                android:textColorHint="@color/white"
+                app:hintTextColor="@color/white"
                 >
 
             </EditText>
